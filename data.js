@@ -1,74 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-cocina-360-copia",
-      "name": "COCINA 360 copia",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-cocina-360",
-      "name": "COCINA 360",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-cocina-360",
-      "name": "COCINA 360",
+      "id": "0-d3-360-copia",
+      "name": "D3 360 copia",
       "levels": [
         {
           "tileSize": 256,
@@ -90,16 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.7630561364354387,
+        "pitch": 0.13416737494692654,
+        "fov": 1.4010588678110822
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.3436782018991558,
+          "pitch": 0.6512704603768036,
+          "rotation": 6.283185307179586,
+          "target": "0-d3-360-copia"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "3-cocina-360-copia",
-      "name": "COCINA 360 copia",
+      "id": "1-d2-360",
+      "name": "D2 360",
       "levels": [
         {
           "tileSize": 256,
@@ -127,26 +68,82 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.0346450120931134,
-          "pitch": 0.5318851547515493,
-          "rotation": 0,
-          "target": "2-cocina-360"
-        },
-        {
-          "yaw": 3.0785142042041027,
-          "pitch": 0.22206347785195035,
-          "rotation": 0,
-          "target": "1-cocina-360"
+          "yaw": -2.9585880289643054,
+          "pitch": 0.588075256031745,
+          "rotation": 1.5707963267948966,
+          "target": "0-d3-360-copia"
         }
       ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-d2-360-copia",
+      "name": "D2 360 copia",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-d2-360-copia",
+      "name": "D2 360 copia",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
   "name": "Project Title",
   "settings": {
-    "mouseViewMode": "drag",
-    "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "mouseViewMode": "qtvr",
+    "autorotateEnabled": false,
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
