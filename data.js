@@ -555,7 +555,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Glaciar 4D",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
